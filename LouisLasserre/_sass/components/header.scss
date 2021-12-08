@@ -11,3 +11,64 @@ header{
     
 
 }
+.heroSection{
+    padding: 5px;
+    width: 17vw;
+    
+    
+    color: white;
+    background-color: rgba(20, 20, 20, 0.9);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    /*border-right: 2px solid white ;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;*/
+    border: 3px solid white;
+    border-radius: 8px;
+    
+    
+
+    text-align: center;
+    transition-duration: 0.5s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        border-color: black;
+
+    }
+
+}
+.centre{
+    flex-direction: column;
+}
+#mail{
+    font-size: 80%;
+}
+#fleche{
+    font-size: 150%;
+    
+}
+
+.header-unpin {
+    position: absolute;
+    top : calc( 100vh - 60px );
+}
+.header-pin {
+    position: fixed;
+    top: 0;
+    
+}
+.fleche-haut{
+    transform: rotate(180deg);
+    transition: transform 200ms ease-in-out;
+}
+.fleche-bas{
+    transform: rotate(360deg);
+    transition: transform 200ms ease-in-out;
+}
