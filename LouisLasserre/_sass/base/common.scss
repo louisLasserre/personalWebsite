@@ -1,12 +1,17 @@
 html {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+    h1{
+        font-family: 'Zen Kurenaido', sans-serif; 
+    }
 }
 
 body {
     color: $primary-color;
+    background-color: rgb(31, 31, 31);
 }
 h1{font-size: 76px;}
-h2{font-size: 40px;}
+h2{font-size: 35px;}
 h3{font-size: 50px;}
 h4{font-size: 31px;}
 h5{font-size: 20px;}

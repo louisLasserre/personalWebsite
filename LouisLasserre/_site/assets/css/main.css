@@ -131,16 +131,19 @@ table {
   box-sizing: border-box; }
 
 html {
-  font-family: 'Catamaran', sans-serif; }
+  font-family: 'Outfit', sans-serif; }
+  html h1 {
+    font-family: 'Zen Kurenaido', sans-serif; }
 
 body {
-  color: black; }
+  color: black;
+  background-color: #1f1f1f; }
 
 h1 {
   font-size: 76px; }
 
 h2 {
-  font-size: 40px; }
+  font-size: 35px; }
 
 h3 {
   font-size: 50px; }
@@ -249,7 +252,7 @@ header {
     margin-bottom: 0.5em; }
   .hero h2 {
     width: 75vw;
-    height: 61vh;
+    height: 55vh;
     margin-left: auto;
     margin-right: auto;
     line-height: 45px;
@@ -257,7 +260,7 @@ header {
     color: rgba(255, 255, 255, 0.2); }
     .hero h2:hover {
       color: white; }
-  .hero .btn {
+  .hero .btnMe {
     display: block;
     width: 200px;
     border: 3px solid white;
@@ -265,10 +268,41 @@ header {
     text-decoration: none;
     padding: 1em;
     margin: 0 auto;
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
     background-color: black;
     color: white; }
-    .hero .btn:hover {
+    .hero .btnMe:hover {
       background-color: white;
       color: black;
       transform: scale(1.1); }
+
+main {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 15px;
+  list-style-type: disc;
+  font-size: 150%;
+  margin: 20px 120px; }
+  main p, main li {
+    margin: 0; }
+  main a {
+    color: white; }
+    main a:hover {
+      color: white; }
+  main ul {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0;
+    margin: 5vh auto; }
+  main li ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center; }
+    main li ul li {
+      padding: 15px;
+      border: 2px solid white;
+      border-radius: 8px;
+      width: 15vw;
+      background-color: black; }

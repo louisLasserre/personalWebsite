@@ -1,0 +1,47 @@
+main{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 15px;
+    list-style-type: disc;
+    font-size: 150%;
+    margin: 20px 120px;
+
+    p, li{
+        margin: 0;
+    }
+    a{
+        color: white;
+        &:hover{
+            color: white;
+
+        }
+        
+    }
+
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 0;
+        margin: 5vh auto;
+    }
+    li ul{
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-align: center;
+        
+        li{
+            padding: 15px;
+            border: 2px solid white;
+            border-radius: 8px;
+
+            width: 15vw;
+            background-color: black;
+
+        }
+    }
+    
+}
+
