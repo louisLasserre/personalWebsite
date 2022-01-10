@@ -132,7 +132,7 @@ table {
 
 html {
   font-family: 'Outfit', sans-serif; }
-  html h1 {
+  html h1, html h3 {
     font-family: 'Zen Kurenaido', sans-serif; }
 
 body {
@@ -171,7 +171,8 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  height: 60px; }
+  height: 60px;
+  z-index: 3; }
 
 .heroSection {
   padding: 5px;
@@ -292,15 +293,18 @@ main {
     main a:hover {
       color: black; }
   main div {
-    width: 100vw; }
-    main div p {
+    width: 100%;
+    margin: 20px 7vw;
+    border-bottom: 2px solid blue;
+    position: relative; }
+    main div h4 {
       display: block;
       width: fit-content;
-      margin: 0 auto; }
+      height: 100%; }
   main ul {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
     padding: 0;
     margin: 5vh auto;
     list-style-type: disc; }
@@ -311,13 +315,15 @@ main {
       justify-content: space-evenly;
       text-align: center; }
       main ul li section a {
-        padding: 15px;
+        padding: 10px;
         border: 2px solid black;
         border-radius: 8px;
         display: flex;
         text-align: center;
         justify-content: center;
         width: 15vw;
-        background-color: white; }
+        background-color: white;
+        font-size: 16px;
+        text-decoration: none; }
         main ul li section a p {
           height: fit-content; }

@@ -18,12 +18,20 @@ main{
         
     }
     div{
-        width: 100vw;
+        width: 100%;
+        margin: 20px 7vw;
+
+        border-bottom: 2px solid blue;
+        position: relative;
         
-        p{
+        h4{
             display: block;
+            
             width: fit-content;
-            margin: 0 auto;
+            
+            height: 100%;
+            // transform: translateX(-50%);
+           
         }
     }
 
@@ -31,7 +39,7 @@ main{
     ul{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 70%;
         padding: 0;
         margin: 5vh auto;
         list-style-type: disc;
@@ -39,6 +47,7 @@ main{
         li{
             section{
                 margin: 30px auto;
+
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
@@ -46,7 +55,7 @@ main{
                 text-align: center;
                 
                 a{
-                    padding: 15px;
+                    padding: 10px;
                     border: 2px solid $colorText;
                     border-radius: 8px;
                     display: flex;
@@ -55,10 +64,13 @@ main{
         
                     width: 15vw;
                     background-color: $fondProjet;
+                    font-size: 16px;
+                    text-decoration: none;
         
                     p{
                        
                         height: fit-content;
+                        
                     }
         
                 }
