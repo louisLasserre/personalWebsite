@@ -292,9 +292,10 @@ main {
     color: black; }
     main a:hover {
       color: black; }
+  main .listProjets {
+    width: 80%;
+    margin: 20px auto; }
   main div {
-    width: 100%;
-    margin: 20px 7vw;
     border-bottom: 2px solid blue;
     position: relative; }
     main div h4 {
@@ -304,17 +305,20 @@ main {
   main ul {
     display: flex;
     flex-direction: column;
-    width: 70%;
     padding: 0;
-    margin: 5vh auto;
     list-style-type: disc; }
-    main ul li section {
+    main ul li {
+      margin: 20px 0 20px 7vw;
+      width: 100%;
+      padding-right: 7vw; }
+    main ul section {
       margin: 30px auto;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      text-align: center; }
-      main ul li section a {
+      text-align: center;
+      width: 80%; }
+      main ul section a {
         padding: 10px;
         border: 2px solid black;
         border-radius: 8px;
@@ -325,5 +329,5 @@ main {
         background-color: white;
         font-size: 16px;
         text-decoration: none; }
-        main ul li section a p {
+        main ul section a p {
           height: fit-content; }
