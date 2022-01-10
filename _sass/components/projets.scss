@@ -1,6 +1,6 @@
 main{
-    background-color: rgb(31, 31, 31);
-    color: white;
+    background-color: $fondProjet;
+    color: $colorText;
     padding: 15px;
     list-style-type: disc;
     font-size: 150%;
@@ -10,9 +10,9 @@ main{
         margin: 0;
     }
     a{
-        color: white;
+        color: $colorText;
         &:hover{
-            color: white;
+            color: $colorText;
 
         }
         
@@ -34,11 +34,14 @@ main{
         
         li{
             padding: 15px;
-            border: 2px solid white;
+            border: 2px solid $colorText;
             border-radius: 8px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
 
             width: 15vw;
-            background-color: black;
+            background-color: $fondProjet
 
         }
     }
