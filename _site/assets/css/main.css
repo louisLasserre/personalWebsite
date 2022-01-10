@@ -291,23 +291,33 @@ main {
     color: black; }
     main a:hover {
       color: black; }
+  main div {
+    width: 100vw; }
+    main div p {
+      display: block;
+      width: fit-content;
+      margin: 0 auto; }
   main ul {
     display: flex;
     flex-direction: column;
     width: 80%;
     padding: 0;
-    margin: 5vh auto; }
-  main li ul {
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none;
-    text-align: center; }
-    main li ul li {
-      padding: 15px;
-      border: 2px solid black;
-      border-radius: 8px;
+    margin: 5vh auto;
+    list-style-type: disc; }
+    main ul li section {
+      margin: 30px auto;
       display: flex;
-      text-align: center;
-      justify-content: center;
-      width: 15vw;
-      background-color: white; }
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: center; }
+      main ul li section a {
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 8px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 15vw;
+        background-color: white; }
+        main ul li section a p {
+          height: fit-content; }

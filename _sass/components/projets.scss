@@ -17,6 +17,15 @@ main{
         }
         
     }
+    div{
+        width: 100vw;
+        
+        p{
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+        }
+    }
 
 
     ul{
@@ -25,26 +34,39 @@ main{
         width: 80%;
         padding: 0;
         margin: 5vh auto;
-    }
-    li ul{
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style-type: none;
-        text-align: center;
-        
-        li{
-            padding: 15px;
-            border: 2px solid $colorText;
-            border-radius: 8px;
-            display: flex;
-            text-align: center;
-            justify-content: center;
+        list-style-type: disc;
 
-            width: 15vw;
-            background-color: $fondProjet
+        li{
+            section{
+                margin: 30px auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                
+                text-align: center;
+                
+                a{
+                    padding: 15px;
+                    border: 2px solid $colorText;
+                    border-radius: 8px;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+        
+                    width: 15vw;
+                    background-color: $fondProjet;
+        
+                    p{
+                       
+                        height: fit-content;
+                    }
+        
+                }
+            }
 
         }
     }
+    
     
 }
 
