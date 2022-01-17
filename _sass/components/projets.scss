@@ -75,13 +75,14 @@ main{
                 justify-content: center;
     
                 width: 15vw;
-                background-color: $fondProjet;
+                background-color: $colorTextH;
                 font-size: 16px;
                 text-decoration: none;
     
                 p{
                    
                     height: fit-content;
+                    margin: auto 0;
                     
                 }
     
@@ -96,6 +97,40 @@ main{
 
 @media screen and (max-width: 925px) {
     main{margin: 20px 50px;}
+}
+@media screen and (max-width: 550px) {
+    main{
+        margin: 20px auto;
+        
+        ul{
+            width: 85vw;
+        }
+        .listProjets{
+            width: 90vw;
+        }
+        h3{
+            margin: 10px auto 30px auto;
+            text-align: center;
+            font-size: 38px;
+        }
+        h4{
+            text-align: center;
+            font-size: 26px;
+            width: auto !important;
+        }
+        p, a{
+            font-size: 20px;
+        }
+        section > a {
+            width: 28vw !important;
+
+            & > p{
+                font-size: 15px !important;
+        
+            }   
+        }
+    }
+
 }
 
 

@@ -73,3 +73,10 @@
     }
 
 }
+@media screen and (max-width: 925px) {
+    .hero{
+        h2{
+            color: $colorTextH !important;
+        }
+    }
+}

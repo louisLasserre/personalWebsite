@@ -137,7 +137,7 @@ html {
 
 body {
   color: white;
-  background-color: white; }
+  background-color: #e9e9e9; }
 
 h1 {
   font-size: 76px; }
@@ -232,7 +232,10 @@ header {
   .phone {
     flex-direction: column; }
     .phone img {
-      width: 40px !important; } }
+      width: 40px !important; }
+
+  .mail p, .phone p {
+    display: none; } }
 .hero {
   width: 100vw;
   height: 100vh;
@@ -279,8 +282,11 @@ header {
       color: black;
       transform: scale(1.1); }
 
+@media screen and (max-width: 925px) {
+  .hero h2 {
+    color: white !important; } }
 main {
-  background-color: white;
+  background-color: #e9e9e9;
   color: black;
   padding: 15px;
   list-style-type: disc;
@@ -329,8 +335,30 @@ main {
         font-size: 16px;
         text-decoration: none; }
         main ul section a p {
-          height: fit-content; }
+          height: fit-content;
+          margin: auto 0; }
 
 @media screen and (max-width: 925px) {
   main {
     margin: 20px 50px; } }
+@media screen and (max-width: 550px) {
+  main {
+    margin: 20px auto; }
+    main ul {
+      width: 85vw; }
+    main .listProjets {
+      width: 90vw; }
+    main h3 {
+      margin: 10px auto 30px auto;
+      text-align: center;
+      font-size: 38px; }
+    main h4 {
+      text-align: center;
+      font-size: 26px;
+      width: auto !important; }
+    main p, main a {
+      font-size: 20px; }
+    main section > a {
+      width: 28vw !important; }
+      main section > a > p {
+        font-size: 15px !important; } }
