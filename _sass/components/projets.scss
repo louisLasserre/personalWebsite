@@ -5,7 +5,7 @@ main{
     list-style-type: disc;
     font-size: 150%;
     margin: 20px 120px;
-
+    
     p, li{
         margin: 0;
     }
@@ -25,11 +25,11 @@ main{
     div{
         
 
-        border-bottom: 2px solid blue;
+        border-bottom: 2px solid rgb(10, 126, 172);
         position: relative;
         
         h4{
-            display: block;
+            
             
             width: fit-content;
             
@@ -93,4 +93,9 @@ main{
     
     
 }
+
+@media screen and (max-width: 925px) {
+    main{margin: 20px 50px;}
+}
+
 

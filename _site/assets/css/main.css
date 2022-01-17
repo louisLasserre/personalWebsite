@@ -296,10 +296,9 @@ main {
     width: 80%;
     margin: 20px auto; }
   main div {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0a7eac;
     position: relative; }
     main div h4 {
-      display: block;
       width: fit-content;
       height: 100%; }
   main ul {
@@ -331,3 +330,7 @@ main {
         text-decoration: none; }
         main ul section a p {
           height: fit-content; }
+
+@media screen and (max-width: 925px) {
+  main {
+    margin: 20px 50px; } }
