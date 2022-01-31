@@ -362,3 +362,26 @@ main {
       width: 28vw !important; }
       main section > a > p {
         font-size: 15px !important; } }
+.MainAboutMe {
+  width: 80vw;
+  margin: 60px auto 0 auto; }
+  .MainAboutMe .LeftRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .MainAboutMe .LeftRight .left {
+      display: flex;
+      flex-direction: column;
+      padding: 0 5vw 0 0; }
+      .MainAboutMe .LeftRight .left img {
+        width: 15vw;
+        border-radius: 50%;
+        border: 4px solid white; }
+    .MainAboutMe .LeftRight .right {
+      display: flex;
+      flex-direction: column; }
+      .MainAboutMe .LeftRight .right h1 {
+        margin-bottom: 50px; }
+      .MainAboutMe .LeftRight .right .AboutMeText {
+        margin: 30px 0 !important;
+        color: black !important; }
