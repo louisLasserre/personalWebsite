@@ -215,6 +215,10 @@ header {
   position: fixed;
   top: 0; }
 
+.fixedBottom {
+  position: fixed;
+  bottom: 0; }
+
 .fleche-haut {
   transform: rotate(180deg);
   transition: transform 200ms ease-in-out; }
