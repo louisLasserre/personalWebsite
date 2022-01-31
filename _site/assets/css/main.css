@@ -366,6 +366,8 @@ header {
   width: 80vw;
   margin: 60px auto 0 auto;
   color: black; }
+  .MainAboutMe p {
+    line-height: 20px; }
   .MainAboutMe .LeftRight {
     display: flex;
     flex-direction: row;
@@ -375,6 +377,8 @@ header {
       flex-direction: column;
       align-items: center;
       padding: 0 5vw 0 0; }
+      .MainAboutMe .LeftRight .left .OnlyMobile {
+        display: none; }
       .MainAboutMe .LeftRight .left > img {
         width: 15vw;
         border-radius: 50%;
@@ -402,3 +406,27 @@ header {
       .MainAboutMe .LeftRight .right .AboutMeText {
         margin: 30px 0 !important;
         color: black !important; }
+
+.lienText {
+  color: #42aae5; }
+
+@media screen and (max-width: 780px) {
+  .MainAboutMe h1 {
+    font-size: 50px; } }
+@media screen and (max-width: 560px) {
+  .MainAboutMe .LeftRight {
+    flex-direction: column; }
+    .MainAboutMe .LeftRight .left {
+      padding: 0 !important; }
+    .MainAboutMe .LeftRight .OnlyMobile {
+      display: inline-block !important;
+      margin-bottom: 30px; }
+    .MainAboutMe .LeftRight .left > img {
+      width: 130px; }
+    .MainAboutMe .LeftRight ul {
+      width: 100% !important;
+      padding-right: 170px; }
+  .MainAboutMe .right {
+    align-items: center; }
+    .MainAboutMe .right h1 {
+      display: none; } }

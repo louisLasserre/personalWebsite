@@ -2,6 +2,9 @@
     width: 80vw;
     margin: 60px auto 0 auto;
     color: $colorText;
+    p{
+        line-height: 20px;
+    }
 
     .LeftRight{
         display: flex;
@@ -15,6 +18,9 @@
             align-items: center;
 
             padding: 0 5vw 0 0;
+            .OnlyMobile{
+                display: none;
+            }
             & > img{
                 width: 15vw;
                 border-radius: 50%;
@@ -49,7 +55,9 @@
             display: flex;
             flex-direction: column;
                 h1{
-                margin-bottom: 50px;
+                    margin-bottom: 50px;
+                    
+
                
                 
             }
@@ -66,4 +74,46 @@
 
    
 }
+.lienText{
+    color: #42aae5;
 
+}
+
+@media screen and (max-width: 780px) {
+    .MainAboutMe{
+        h1{
+            font-size: 50px;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .MainAboutMe{
+        .LeftRight{
+            flex-direction: column;
+
+            .left{
+                padding: 0 !important;
+            }
+            .OnlyMobile{
+                display: inline-block !important;
+                margin-bottom: 30px;
+            }
+            .left > img{
+                width: 130px;
+            }
+            ul{
+                width: 100% !important;
+                padding-right: 170px;
+                
+               
+            }
+        }
+        .right{
+            align-items: center;
+            h1{
+            display: none;
+
+            }
+        }
+    }
+}
