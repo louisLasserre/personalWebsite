@@ -1,6 +1,7 @@
 .MainAboutMe{
     width: 80vw;
     margin: 60px auto 0 auto;
+    color: $colorText;
 
     .LeftRight{
         display: flex;
@@ -11,12 +12,35 @@
         .left{
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             padding: 0 5vw 0 0;
-            img{
+            & > img{
                 width: 15vw;
                 border-radius: 50%;
                 border: 4px solid white;
+            }
+            ul{
+                list-style-type: none;
+                width: 90%;
+                li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin: 15px 0;
+                img{
+                    width: 30px;
+                }
+
+                
+                p{
+                    display: block;
+                    width: 70%;
+                    height: fit-content;
+                }
+
+                }
             }
             
 

@@ -285,45 +285,45 @@ header {
 @media screen and (max-width: 925px) {
   .hero h2 {
     color: white !important; } }
-main {
+.mainProjet {
   background-color: #e9e9e9;
   color: black;
   padding: 15px;
   list-style-type: disc;
   font-size: 150%;
   margin: 20px 120px; }
-  main p, main li {
+  .mainProjet p, .mainProjet li {
     margin: 0; }
-  main a {
+  .mainProjet a {
     color: black; }
-    main a:hover {
+    .mainProjet a:hover {
       color: black; }
-  main .listProjets {
+  .mainProjet .listProjets {
     width: 80%;
     margin: 20px auto; }
-  main div {
+  .mainProjet div {
     border-bottom: 2px solid #0a7eac;
     position: relative; }
-    main div h4 {
+    .mainProjet div h4 {
       width: fit-content;
       height: 100%; }
-  main ul {
+  .mainProjet ul {
     display: flex;
     flex-direction: column;
     padding: 0;
     list-style-type: disc; }
-    main ul li {
+    .mainProjet ul li {
       margin: 20px 0 20px 7vw;
       width: 100%;
       padding-right: 7vw; }
-    main ul section {
+    .mainProjet ul section {
       margin: 30px auto;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       text-align: center;
       width: 80%; }
-      main ul section a {
+      .mainProjet ul section a {
         padding: 10px;
         border: 2px solid black;
         border-radius: 8px;
@@ -334,37 +334,38 @@ main {
         background-color: white;
         font-size: 16px;
         text-decoration: none; }
-        main ul section a p {
+        .mainProjet ul section a p {
           height: fit-content;
           margin: auto 0; }
 
 @media screen and (max-width: 925px) {
-  main {
+  .mainProjet {
     margin: 20px 50px; } }
 @media screen and (max-width: 550px) {
-  main {
+  .mainProjet {
     margin: 20px auto; }
-    main ul {
+    .mainProjet ul {
       width: 85vw; }
-    main .listProjets {
+    .mainProjet .listProjets {
       width: 90vw; }
-    main h3 {
+    .mainProjet h3 {
       margin: 10px auto 30px auto;
       text-align: center;
       font-size: 38px; }
-    main h4 {
+    .mainProjet h4 {
       text-align: center;
       font-size: 26px;
       width: auto !important; }
-    main p, main a {
+    .mainProjet p, .mainProjet a {
       font-size: 20px; }
-    main section > a {
+    .mainProjet section > a {
       width: 28vw !important; }
-      main section > a > p {
+      .mainProjet section > a > p {
         font-size: 15px !important; } }
 .MainAboutMe {
   width: 80vw;
-  margin: 60px auto 0 auto; }
+  margin: 60px auto 0 auto;
+  color: black; }
   .MainAboutMe .LeftRight {
     display: flex;
     flex-direction: row;
@@ -372,11 +373,27 @@ main {
     .MainAboutMe .LeftRight .left {
       display: flex;
       flex-direction: column;
+      align-items: center;
       padding: 0 5vw 0 0; }
-      .MainAboutMe .LeftRight .left img {
+      .MainAboutMe .LeftRight .left > img {
         width: 15vw;
         border-radius: 50%;
         border: 4px solid white; }
+      .MainAboutMe .LeftRight .left ul {
+        list-style-type: none;
+        width: 90%; }
+        .MainAboutMe .LeftRight .left ul li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          margin: 15px 0; }
+          .MainAboutMe .LeftRight .left ul li img {
+            width: 30px; }
+          .MainAboutMe .LeftRight .left ul li p {
+            display: block;
+            width: 70%;
+            height: fit-content; }
     .MainAboutMe .LeftRight .right {
       display: flex;
       flex-direction: column; }

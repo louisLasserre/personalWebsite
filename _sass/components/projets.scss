@@ -1,4 +1,4 @@
-main{
+.mainProjet{
     background-color: $fondProjet;
     color: $colorText;
     padding: 15px;
@@ -98,10 +98,10 @@ main{
 }
 
 @media screen and (max-width: 925px) {
-    main{margin: 20px 50px;}
+    .mainProjet{margin: 20px 50px;}
 }
 @media screen and (max-width: 550px) {
-    main{
+    .mainProjet{
         margin: 20px auto;
         
         ul{
