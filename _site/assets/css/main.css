@@ -204,7 +204,7 @@ header {
 #mail {
   font-size: 80%; }
 
-#fleche {
+.CFleche {
   font-size: 150%; }
 
 .header-unpin {
@@ -243,15 +243,24 @@ header {
 .hero {
   width: 100vw;
   height: 100vh;
+  padding-top: 50px;
   display: flex;
-  flex-direction: column;
   text-align: center;
+  justify-content: flex-start;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/image/persosite.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/image/persosite-3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  .hero div {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around; }
   .hero h1 {
     font-size: 4em;
     font-family: 'Zen Kurenaido', sans-serif;
@@ -259,9 +268,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.5em; }
+  .hero strong {
+    color: #42a9e542;
+    transition-duration: 0.4s; }
   .hero h2 {
     width: 75vw;
-    height: 55vh;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -270,16 +282,18 @@ header {
     color: rgba(255, 255, 255, 0.2); }
     .hero h2:hover {
       color: white; }
+    .hero h2:hover strong {
+      color: #42a9e5; }
   .hero .btnMe {
     display: block;
-    width: 200px;
+    width: 17vw;
     border: 3px solid white;
-    border-radius: 23px;
+    border-radius: 8px;
     text-decoration: none;
     padding: 1em;
     margin: 0 auto;
     transition-duration: 0.3s;
-    background-color: black;
+    background-color: rgba(20, 20, 20, 0.904);
     color: white; }
     .hero .btnMe:hover {
       background-color: white;
@@ -368,7 +382,7 @@ header {
         font-size: 15px !important; } }
 .MainAboutMe {
   width: 80vw;
-  margin: 60px auto 0 auto;
+  margin: 60px auto 60px auto;
   color: black; }
   .MainAboutMe p {
     line-height: 20px; }
