@@ -17,7 +17,97 @@
   </head>
   <body>
     
-    <header id="header" class="test fixedBottom">
+    <script src="/assets/js/gsap.js"></script>
+
+
+    <div class="loader">
+        <div class="loader__element"></div>
+        <!-- Add an extra loader__element for stagger curtains -->
+        <div class="loader__element"></div>
+    </div>
+
+
+
+  <section class="image" id="main">
+      <!-- <button id="btnMain" class="switch" style="z-index: 3;">appui pour changer</button> -->
+      <section class="hero">
+    <div>
+        <h1>Louis LASSERRE</h1>
+        <h2>Etudiant en BUT MMI à Bordeaux, je me spécialise dans le <strong>développement web fullstack.</strong><br>
+            Au cours de mes différents projets personnels et professionels j'ai pu apprendre : <strong >Python, c# <br>
+             html, css, javascript <br>
+             php, ruby on rails</strong>
+        </h2>
+        <!-- <a href="aboutMe.html" class="btnMe">À propos de moi</a> -->
+    </div>
+</section>
+      <header id="header" class="test header-unpin">
+    <div class="heroSection"><img src="assets/image/linkedinblanc.png" alt="linkedin" style="width: 40px;"> </div>
+    
+        
+    <div class="heroSection centre" id="arrowBtn"> <p id="textBtn"> mes projets</p> <div class="CFleche"id="fleche">&#x2193</div></div>
+    
+    <div class="heroSection centre" id="btnMain"><p>À propos de moi</p><div class="CFleche" id="aboutArrow">&#x2192</div></div>
+    <a href="https://github.com/louisLasserre" class="heroSection"> <img src="assets/image/github.png" alt="GitHub" style="width: 40px;"> </a>
+    
+    
+    
+</header>
+
+
+      <main class="mainProjet">
+    
+    <h3>Mes projets</h3>
+    <section class="listProjets">
+
+        <div> <h4> Développement web </h4></div>
+
+        <ul>
+            <li><a href="">Mon premier projet en html, css : site sur les grands nom de l'informatique</a></li>
+            <section>
+                <a href="https://louislasserrev1.netlify.app/llsite/pageprincipal"><p>accéder au site</p></a>
+                <a href="https://louislasserrev1.netlify.app/llsite/style.css"><p>voir le css</p></a>
+            </section>
+
+            <li><a href="">Premier test/Version de ce site</a></li>
+            <section>
+                <a href="https://louislasserrev1.netlify.app/acceuil"><p>accéder au site</p></a>
+                <a href="https://github.com/louisLasserre/louisLasserre.github.io"><p>Repository GitHub</p></a>
+            </section>
+                
+            
+            <li><a href="">Premier projet en groupe.Il s'agit de la refonte du site de la salle de spectacle La Cigale à Paris</a></li>
+            <section>
+                <a href="https://la-cigale.netlify.app/"><p>accéder au site</p></a>
+                <a href="https://github.com/97Lucaas/mmi2024-mellt"><p>Repository GitHub</p></a>
+            </section>
+        </ul>
+    </section>
+    <section class="listProjets">
+        <div class=""> <h4> Programmation-Création de jeux vidéos</h4></div>
+        <ul>
+            <li>Premier projet de création de jeu vidéo en groupe</li>
+            <li>Jeux vidéo sur Unity </li>
+            <li>sixième projet</li>
+        </ul>
+    </section>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fuga quis nam cumque ipsum omnis, quasi, doloremque obcaecati mollitia suscipit, eligendi cupiditate. Laboriosam voluptatibus quo eos aut facere, ex dignissimos?
+    Assumenda aliquid eum consequuntur necessitatibus consectetur cumque perferendis provident ex odit saepe deleniti amet, adipisci iure asperiores. Dicta nostrum odit neque, fugit blanditiis maiores dignissimos dolorum aliquid quibusdam esse temporibus?
+    Officia necessitatibus mollitia alias soluta sit tempora, quod iusto cum facilis est accusantium repellat odio beatae iure corporis voluptatum ipsa quae ipsam optio molestias assumenda esse rem. Id, est iusto.
+    Ipsum totam dolores nostrum quam numquam eligendi deserunt sequi vero labore ullam illum, qui, sed est quo omnis laborum distinctio, molestias blanditiis nesciunt adipisci repudiandae natus obcaecati sint? Itaque, officia!
+    Asperiores et deserunt corrupti quos error unde. Nesciunt sint quibusdam deleniti nemo quam possimus sequi consequatur maxime iste doloremque similique cum molestiae cumque, aliquid voluptatibus eius esse. Animi, recusandae magnam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum neque, laudantium consequatur deleniti commodi officia delectus dignissimos optio mollitia cumque repellat nemo amet! Est omnis earum in tempore sequi obcaecati?
+    Repudiandae hic, beatae placeat perferendis nostrum sed minus perspiciatis debitis repellat amet dignissimos assumenda ratione fugiat at natus vitae mollitia explicabo magnam commodi porro? Odit alias vitae minima aliquid ipsa.
+    Saepe, a? Omnis, atque sint eum suscipit fugit ratione tenetur, consequatur aspernatur quibusdam aperiam expedita necessitatibus, accusamus iste explicabo enim natus dolores aliquid soluta itaque maiores veniam asperiores iure assumenda?</p>
+</main>
+      <script type="text/javascript" src="/assets/js/javascript.js"></script>
+      
+  </section>
+
+  <section class="image getOff" id="second">
+      <!-- <button id="btnSecond" class="switch" style="z-index: 3;">appui pour changer</button> -->
+      
+      <header id="header" class="test fixedBottom">
     <div class="heroSection"><img src="assets/image/linkedinblanc.png" alt="linkedin" style="width: 40px;"> </div>
     
         
@@ -28,10 +118,11 @@
             <p>06 15 60 70 07</p>
             
         </div>
-        <div class="heroSection mail" id="btnSecond">
+        <div class="heroSection centre " id="btnSecond">
             
-            <img src="assets/image/mail.png" alt="mail" style="width: 45px;">
-            <p id="mail">À propos de moi</p>
+            
+            <p id="">Revenir à l'accueil</p>
+            <div class="CFleche" id="aboutArrow">&#x2190</div>
             
         </div>
     <a href="" class="heroSection"> <img src="assets/image/insta.png" alt="GitHub" style="width: 60px;"> </a>
@@ -39,7 +130,7 @@
 </header>
 
 
-<main class="MainAboutMe">
+      <main class="MainAboutMe">
     <section class="LeftRight">
         <article class="left">
             <h1 class="OnlyMobile">À propos de moi</h1>
@@ -81,15 +172,9 @@
     
 
 </main>
+  </section>
 
-
-
-
-    
-<footer>
-    
-</footer>
-
+  <script type="text/javascript" src="/assets/js/test.js"></script>
     
     <script src="/assets/js/bootstrap.js"></script>
   </body>
