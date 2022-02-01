@@ -435,3 +435,26 @@ header {
     align-items: center; }
     .MainAboutMe .right h1 {
       display: none; } }
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1; }
+  .loader__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: center right;
+    background: #1b2759; }
+    .loader__element:first-of-type {
+      background: #0F1632; }
+
+.getOff {
+  display: none; }
+
+.show {
+  display: block; }

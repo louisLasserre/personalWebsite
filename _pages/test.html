@@ -1,0 +1,30 @@
+---
+title: test
+---
+<script src="/assets/js/gsap.js"></script>
+
+
+<div class="loader">
+    <div class="loader__element"></div>
+    <!-- Add an extra loader__element for stagger curtains -->
+    <div class="loader__element"></div>
+</div>
+
+
+
+<section class="image" id="main">
+    <!-- <button id="btnMain" class="switch" style="z-index: 3;">appui pour changer</button> -->
+    {% include hero.html %}
+    {% include header.html %}
+    {% include projets.html %}
+    
+</section>
+
+<section class="image getOff" id="second">
+    <!-- <button id="btnSecond" class="switch" style="z-index: 3;">appui pour changer</button> -->
+    
+    {% include aboutMe/header.html %}
+    {% include aboutMe/main.html %}
+</section>
+
+{% include testjs.html %}
