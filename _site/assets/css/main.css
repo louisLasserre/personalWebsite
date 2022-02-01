@@ -227,19 +227,6 @@ header {
   transform: rotate(360deg);
   transition: transform 200ms ease-in-out; }
 
-@media screen and (max-width: 1150px) {
-  .mail {
-    flex-direction: column; }
-    .mail img {
-      width: 40px !important; } }
-@media screen and (max-width: 925px) {
-  .phone {
-    flex-direction: column; }
-    .phone img {
-      width: 40px !important; }
-
-  .mail p, .phone p {
-    display: none; } }
 .hero {
   width: 100vw;
   height: 100vh;

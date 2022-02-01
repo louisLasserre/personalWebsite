@@ -56,9 +56,7 @@ header{
     font-size: 150%;
     
 }
-// #aboutArrow{
-//     transform: rotate(-90deg);
-// }
+
 
 
 .header-unpin {
@@ -81,27 +79,5 @@ header{
 .fleche-bas{
     transform: rotate(360deg);
     transition: transform 200ms ease-in-out;
-}
-@media screen and (max-width: 1150px) {
-    .mail{
-        flex-direction: column;
-        img{
-            width: 40px !important;
-        }
-    }
-
-}
-@media screen and (max-width: 925px) {
-    .phone{
-        flex-direction: column;
-        img{
-            width: 40px !important;
-        }
-    }
-    .mail p, .phone p{
-        
-        display: none;
-        
-    }
 }
 
