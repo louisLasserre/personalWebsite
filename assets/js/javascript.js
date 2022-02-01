@@ -6,12 +6,8 @@ console.log(vh);
 
 Hpx = window.screen.height;
 
-aboutMeBtn = document.getElementById("aboutMeBtn");
+
 fleche = document.getElementById("fleche");
-aboutMeBtn.onclick = function(){
-    console.log("click");
-    window.location = 'http://louislasserre.codes/aboutMe';
-};
 
 boutonFleche = document.getElementById("arrowBtn");
 

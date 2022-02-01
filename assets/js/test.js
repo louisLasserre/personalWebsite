@@ -29,11 +29,11 @@ function switchToSecond() {
     setTimeout(function(){
         second.classList.remove("getOff");
         second.classList.add("show");
-        console.log(main.outerHTML);
+        
     
         main.classList.remove("show");
         main.classList.add("getOff");
-        console.log(second.outerHTML);
+        
     }, 1000); 
     
 
@@ -47,11 +47,11 @@ function switchToFirst() {
     setTimeout(function(){
         main.classList.remove("getOff");
         main.classList.add("show");
-        console.log(main.outerHTML);
+        
         
         second.classList.remove("show");
         second.classList.add("getOff");
-        console.log(second.outerHTML);
+        
     }, 1000);
      
 }
