@@ -24,6 +24,12 @@ tl.set(loader, {
 
 
 
+
+
+
+
+
+
 function switchToSecond() {
     tl.play(0);
     setTimeout(function(){
@@ -34,7 +40,7 @@ function switchToSecond() {
         main.classList.remove("show");
         main.classList.add("getOff");
         
-    }, 1000); 
+    }, 500); 
     
 
     
@@ -52,7 +58,7 @@ function switchToFirst() {
         second.classList.remove("show");
         second.classList.add("getOff");
         
-    }, 1000);
+    }, 500);
      
 }
 
