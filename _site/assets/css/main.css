@@ -581,4 +581,11 @@ header {
     display: none !important; }
 
   .smallBoxBtn {
-    display: flex !important; } }
+    display: flex !important; }
+
+  .projet article {
+    padding-left: 0 !important; }
+    .projet article .V {
+      left: -52px !important; }
+    .projet article .H {
+      left: -46px; } }

@@ -98,4 +98,15 @@
     .smallBoxBtn{
         display: flex !important;
     }
+    .projet{
+        article{
+            padding-left: 0 !important;
+            .V{
+                left: -52px !important;
+            }
+            .H{
+                left: -46px;
+            }
+        }
+    }
 }
