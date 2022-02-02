@@ -289,7 +289,9 @@ header {
 
 @media screen and (max-width: 925px) {
   .hero h2 {
-    color: white !important; } }
+    color: white !important; }
+  .hero strong {
+    color: #42a9e5; } }
 .mainProjet {
   background-color: #f3f3f3;
   color: black;
@@ -321,6 +323,7 @@ header {
     .mainProjet ul li {
       display: flex;
       align-items: center;
+      text-align: center;
       justify-content: space-between;
       border: 2px solid black;
       background-color: white;
