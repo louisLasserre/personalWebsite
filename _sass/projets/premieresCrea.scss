@@ -1,0 +1,71 @@
+.projet{
+    margin: 30px 120px;
+    
+
+    text-align: center;
+    h1{
+        color: black;
+        
+    }
+    .un{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        
+
+        margin-top: 150px;
+        
+    }
+    .boxBtn{
+        border: 2px solid red;
+        
+
+        /*tmp*/
+        height: 150px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        .projetBtn{
+            
+            border: 3px solid black;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+
+        }
+
+        
+    }
+    article{
+        position: relative;
+        border: 2px solid green;
+        height: 300px;
+        width: 80vw;
+        padding-left: 50px;
+        text-align: left;
+        .H{
+            position: absolute;
+            left: 4px;
+            
+            top: 50px;
+
+        }
+        .V{
+            position: absolute;
+            left: -2px;
+            top: 0;
+        }
+        h2, p{
+            color: black;
+            
+            
+        }
+        p{font-size: 20px;margin-bottom: 15px;}
+        h2{margin-bottom: 70px;}
+    }
+    
+}

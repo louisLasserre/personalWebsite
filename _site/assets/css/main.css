@@ -130,14 +130,14 @@ table {
 * {
   box-sizing: border-box; }
 
-html {
+html, h2 {
   font-family: 'Outfit', sans-serif; }
-  html h1, html h3 {
+  html h1, html h3, h2 h1, h2 h3 {
     font-family: 'Zen Kurenaido', sans-serif; }
 
 body {
   color: white;
-  background-color: #f3f3f3; }
+  background-color: #fcfcfc; }
 
 h1 {
   font-size: 76px; }
@@ -293,7 +293,7 @@ header {
   .hero strong {
     color: #42a9e5; } }
 .mainProjet {
-  background-color: #f3f3f3;
+  background-color: #fcfcfc;
   color: black;
   padding: 15px;
   list-style-type: disc;
@@ -516,3 +516,50 @@ header {
   .scratch, .c, .unity {
     width: 30px;
     margin: 15px 5px !important; } }
+.projet {
+  margin: 30px 120px;
+  text-align: center; }
+  .projet h1 {
+    color: black; }
+  .projet .un {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 150px; }
+  .projet .boxBtn {
+    border: 2px solid red;
+    /*tmp*/
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px; }
+    .projet .boxBtn .projetBtn {
+      border: 3px solid black;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px; }
+  .projet article {
+    position: relative;
+    border: 2px solid green;
+    height: 300px;
+    width: 80vw;
+    padding-left: 50px;
+    text-align: left; }
+    .projet article .H {
+      position: absolute;
+      left: 4px;
+      top: 50px; }
+    .projet article .V {
+      position: absolute;
+      left: -2px;
+      top: 0; }
+    .projet article h2, .projet article p {
+      color: black; }
+    .projet article p {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    .projet article h2 {
+      margin-bottom: 70px; }
