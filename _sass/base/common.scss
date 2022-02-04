@@ -14,7 +14,7 @@ h1{font-size: 76px;}
 h2{font-size: 35px;}
 h3{font-size: 50px;}
 h4{font-size: 31px;}
-h5{font-size: 20px;}
+h5{font-size: 23px;}
 h6{font-size: 13px;}
 
 @media screen and (max-width: 959px) {
@@ -30,4 +30,23 @@ h6{font-size: 13px;}
 
 .pagedeux{
     background-color: #dedede !important;
+}
+
+.BackButton{
+    width: 70px;
+    height: 70px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.555);
+    transition-duration: 0.4s;
+    
+
+    position: fixed;bottom: 50px;left: 50px;
+    padding: 15px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.555);
+    text-align: center;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.952);
+        color: rgb(255, 255, 255);
+    }
 }

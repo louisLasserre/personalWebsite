@@ -152,7 +152,7 @@ h4 {
   font-size: 31px; }
 
 h5 {
-  font-size: 20px; }
+  font-size: 23px; }
 
 h6 {
   font-size: 13px; }
@@ -166,6 +166,23 @@ h6 {
     line-height: 30px !important; } }
 .pagedeux {
   background-color: #dedede !important; }
+
+.BackButton {
+  width: 70px;
+  height: 70px;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.555);
+  transition-duration: 0.4s;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  padding: 15px;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.555);
+  text-align: center; }
+  .BackButton:hover {
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white; }
 
 header {
   display: flex;
@@ -320,6 +337,8 @@ header {
     flex-direction: column;
     padding: 0;
     list-style-type: disc; }
+    .mainProjet ul a {
+      text-decoration: none; }
     .mainProjet ul li {
       display: flex;
       align-items: center;
@@ -331,11 +350,9 @@ header {
       margin: 20px 7vw 20px 7vw;
       width: auto;
       padding: 10px 40px;
-      transition-duration: 0.5s; }
+      transition-duration: 0.3s; }
       .mainProjet ul li:hover {
         box-shadow: 0 0 10px #6e6e6e; }
-      .mainProjet ul li a {
-        text-decoration: none; }
       .mainProjet ul li img {
         margin: 15px 0; }
       .mainProjet ul li .content {
@@ -528,19 +545,20 @@ header {
     align-items: flex-start;
     justify-content: space-between; }
   .projet .boxBtn {
-    /*tmp*/
-    height: 150px;
     width: 250px;
     display: flex;
     flex-direction: column;
     margin-right: 50px;
     margin-top: 110px; }
+    .projet .boxBtn a {
+      text-decoration: none; }
     .projet .boxBtn .projetBtn {
       border: 3px solid black;
       color: black;
       padding: 20px;
       border-radius: 10px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      transition-duration: 0.4s; }
   .projet article {
     position: relative;
     height: 510px;
@@ -569,12 +587,15 @@ header {
       flex-direction: row;
       align-items: center;
       justify-content: space-around; }
+      .projet article .smallBoxBtn a {
+        text-decoration: none; }
       .projet article .smallBoxBtn .projetBtn {
         margin-top: 20px;
         border: 3px solid black;
         color: black;
         padding: 20px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        transition-duration: 0.4s; }
 
 @media screen and (max-width: 700px) {
   .boxBtn {
@@ -589,3 +610,7 @@ header {
       left: -52px !important; }
     .projet article .H {
       left: -46px; } }
+.projetBtn:hover {
+  border: 3px solid white !important;
+  background-color: black;
+  color: white !important; }

@@ -21,10 +21,12 @@
     }
     .boxBtn{
         
-        
+        a{
+            text-decoration: none;
+        }
 
-        /*tmp*/
-        height: 150px;
+        
+        
         width: 250px;
         display: flex;
         flex-direction: column;
@@ -37,6 +39,10 @@
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 15px;
+
+            transition-duration: 0.4s;
+            
+
 
         }
 
@@ -76,6 +82,9 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
+            a{
+                text-decoration: none;
+            }
             
             .projetBtn{
                 margin-top: 20px;
@@ -83,6 +92,10 @@
                 color: black;
                 padding: 20px;
                 border-radius: 10px;
+
+                transition-duration: 0.4s;
+                
+
                 
             }
             
@@ -109,4 +122,10 @@
             }
         }
     }
+}
+
+.projetBtn:hover{
+    border: 3px solid white !important;
+    background-color: black;
+    color: white !important;
 }

@@ -50,7 +50,9 @@
         padding: 0;
         
         list-style-type: disc;
-        
+        a{
+                text-decoration: none;
+            }
 
         li {
             display: flex;
@@ -64,14 +66,12 @@
             width: auto;
             padding:10px 40px;
 
-            transition-duration: 0.5s;
+            transition-duration: 0.3s;
             &:hover{
                 box-shadow: 0 0 10px rgb(110, 110, 110);
             }
             
-            a{
-                text-decoration: none;
-            }
+            
             img{
                 margin: 15px 0;
                 
