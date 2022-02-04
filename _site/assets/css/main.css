@@ -579,7 +579,8 @@ header {
       color: black; }
     .projet article p {
       font-size: 20px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      line-height: 30px; }
     .projet article h2 {
       margin-bottom: 70px; }
     .projet article .smallBoxBtn {
