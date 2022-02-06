@@ -76,6 +76,24 @@
         }
         p{font-size: 20px;margin-bottom: 15px;line-height: 30px;}
         h2{margin-bottom: 70px;}
+        .preview{
+            width: fit-content;
+            margin: 0 auto;
+            display: flex;
+            
+            img{
+                width: 300px;
+                margin: 20px;
+                
+            }
+            .heb1{
+                height: fit-content;
+            }
+            .heb2{
+                width: 200px !important;
+            }
+            
+        }
 
         .smallBoxBtn{
             display: none;

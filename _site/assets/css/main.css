@@ -583,6 +583,17 @@ header {
       line-height: 30px; }
     .projet article h2 {
       margin-bottom: 70px; }
+    .projet article .preview {
+      width: fit-content;
+      margin: 0 auto;
+      display: flex; }
+      .projet article .preview img {
+        width: 300px;
+        margin: 20px; }
+      .projet article .preview .heb1 {
+        height: fit-content; }
+      .projet article .preview .heb2 {
+        width: 200px !important; }
     .projet article .smallBoxBtn {
       display: none;
       flex-direction: row;
