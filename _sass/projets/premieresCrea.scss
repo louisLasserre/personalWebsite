@@ -14,7 +14,7 @@
         align-items: flex-start;
         justify-content: space-between;
 
-        
+         
 
         
         
@@ -82,8 +82,11 @@
             display: flex;
             
             img{
-                width: 300px;
+                width: 400px;
+                height: 250px;
                 margin: 20px;
+                object-fit: scale-down;
+                
                 
             }
             .heb1{
@@ -138,6 +141,18 @@
             .H{
                 left: -46px;
             }
+            .preview{
+                flex-direction: column;
+                img{
+                    width: 250px;
+                    height: 125px;
+
+                }
+                
+            }
+        }
+        .un{
+            margin-top: 220px;
         }
     }
 }

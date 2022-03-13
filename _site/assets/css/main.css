@@ -326,7 +326,7 @@ header {
     width: 80%;
     margin: 20px auto; }
   .mainProjet .titre {
-    border-bottom: 2px solid #0a7eac;
+    border-bottom: 2px solid #42a9e5;
     position: relative;
     margin-top: 50px; }
     .mainProjet .titre h4 {
@@ -588,8 +588,10 @@ header {
       margin: 0 auto;
       display: flex; }
       .projet article .preview img {
-        width: 300px;
-        margin: 20px; }
+        width: 400px;
+        height: 250px;
+        margin: 20px;
+        object-fit: scale-down; }
       .projet article .preview .heb1 {
         height: fit-content; }
       .projet article .preview .heb2 {
@@ -621,7 +623,14 @@ header {
     .projet article .V {
       left: -52px !important; }
     .projet article .H {
-      left: -46px; } }
+      left: -46px; }
+    .projet article .preview {
+      flex-direction: column; }
+      .projet article .preview img {
+        width: 250px;
+        height: 125px; }
+  .projet .un {
+    margin-top: 220px; } }
 .projetBtn:hover {
   border: 3px solid white !important;
   background-color: black;
