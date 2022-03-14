@@ -354,7 +354,9 @@ header {
       .mainProjet ul li:hover {
         box-shadow: 0 0 10px #6e6e6e; }
       .mainProjet ul li img {
-        margin: 15px 0; }
+        margin: 15px 0;
+        height: 50px;
+        object-fit: contain; }
       .mainProjet ul li .content {
         display: flex;
         align-items: center;
@@ -391,6 +393,10 @@ header {
       width: 85vw; }
     .mainProjet .listProjets {
       width: 90vw; }
+      .mainProjet .listProjets li {
+        flex-direction: column; }
+      .mainProjet .listProjets img {
+        height: 30px; }
     .mainProjet h3 {
       margin: 10px auto 30px auto;
       text-align: center;
@@ -498,41 +504,6 @@ header {
 .show {
   display: block; }
 
-.html, .js {
-  width: 58px; }
-
-.python, .css {
-  width: 42.5px; }
-
-.sqlite {
-  width: 80px; }
-
-.sql, .php {
-  width: 80px; }
-
-.scratch, .c, .unity {
-  width: 50px;
-  margin: 15px 10px !important; }
-
-@media screen and (max-width: 1150px) {
-  .mainProjet li {
-    flex-direction: column; }
-
-  .html, .js {
-    width: 32px; }
-
-  .python, .css {
-    width: 22.5px; }
-
-  .sqlite {
-    width: 60px; }
-
-  .sql, .php {
-    width: 60px; }
-
-  .scratch, .c, .unity {
-    width: 30px;
-    margin: 15px 5px !important; } }
 .projet {
   margin: 30px 120px;
   text-align: center; }

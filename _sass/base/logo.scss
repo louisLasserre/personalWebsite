@@ -1,44 +1,44 @@
-$mainSize: 40px;
-$secondSize: 20px;
+// $mainSize: 40px;
+// $secondSize: 20px;
 
-.html, .js{
-    width: $mainSize+18;
-}
-.python, .css{
-    width: $mainSize+2.5;
-}
-.sqlite{
-    width: $mainSize+40;
-}
-.sql, .php{
-    width: $mainSize+40;
-}
-.scratch, .c, .unity{
-    width: $mainSize+10;
-    margin: 15px 10px !important;
-}
+// .html, .js{
+//     width: $mainSize+18;
+// }
+// .python, .css{
+//     width: $mainSize+2.5;
+// }
+// .sqlite{
+//     width: $mainSize+40;
+// }
+// .sql, .php{
+//     width: $mainSize+40;
+// }
+// .scratch, .c, .unity{
+//     width: $mainSize+10;
+//     margin: 15px 10px !important;
+// }
 
-@media screen and (max-width: 1150px) {
-    .mainProjet{
-        li{
-            flex-direction: column;
-        }
-    }
+// @media screen and (max-width: 1150px) {
+//     .mainProjet{
+//         li{
+//             flex-direction: column;
+//         }
+//     }
 
-    .html, .js{
-        width: $secondSize+12;
-    }
-    .python, .css{
-        width: $secondSize+2.5;
-    }
-    .sqlite{
-        width: $secondSize+40;
-    }
-    .sql, .php{
-        width: $secondSize+40;
-    }
-    .scratch, .c, .unity{
-        width: $secondSize+10;
-        margin: 15px 5px !important;
-    }
-}
+//     .html, .js{
+//         width: $secondSize+12;
+//     }
+//     .python, .css{
+//         width: $secondSize+2.5;
+//     }
+//     .sqlite{
+//         width: $secondSize+40;
+//     }
+//     .sql, .php{
+//         width: $secondSize+40;
+//     }
+//     .scratch, .c, .unity{
+//         width: $secondSize+10;
+//         margin: 15px 5px !important;
+//     }
+// }

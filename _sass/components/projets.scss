@@ -75,6 +75,9 @@
             img{
                 margin: 15px 0;
                 
+                height: 50px;
+                object-fit: contain;
+                
             }
             .content{
                 display: flex;
@@ -149,6 +152,12 @@
         }
         .listProjets{
             width: 90vw;
+            li{
+                flex-direction: column;
+            }
+            & img{
+                height: 30px;
+            }
         }
         h3{
             margin: 10px auto 30px auto;
